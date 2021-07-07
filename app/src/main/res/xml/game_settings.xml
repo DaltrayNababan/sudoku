@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:os="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:layout="@layout/pref_title"
+        android:title="@string/app_startup_category">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="show_sudoku_lists_on_startup"
+            android:icon="@drawable/ic_list"
+            android:summary="@string/show_sudoku_lists_on_startup_summary"
+            android:title="@string/show_sudoku_lists_on_startup_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/pref_title"
+        android:title="@string/game_helpers">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="highlight_wrong_values"
+            android:icon="@drawable/ic_highlight"
+            android:summary="@string/highlight_wrong_values_summary"
+            android:title="@string/highlight_wrong_values" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="highlight_completed_values"
+            android:icon="@drawable/ic_highlight"
+            android:summary="@string/highlight_completed_values_summary"
+            android:title="@string/highlight_completed_values" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="highlight_similar_cells"
+            android:icon="@drawable/ic_highlight"
+            android:summary="@string/highlight_similar_cells_summary"
+            android:title="@string/highlight_similar_cells" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="highlight_similar_notes"
+            android:icon="@drawable/ic_highlight"
+            android:summary="@string/highlight_similar_notes_summary"
+            android:title="@string/highlight_similar_notes" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="bidirectional_selection"
+            android:icon="@drawable/ic_swap"
+            android:summary="@string/bidirectional_selection_summary"
+            android:title="@string/bidirectional_selection" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="show_number_totals"
+            android:summary="@string/show_number_totals_summary"
+            android:title="@string/show_number_totals" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="fill_in_notes_enabled"
+            android:icon="@drawable/ic_fill_note"
+            android:summary="@string/fill_in_notes_summary"
+            android:title="@string/fill_in_notes" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="remove_notes_on_input"
+            android:icon="@drawable/ic_remove_note"
+            android:summary="@string/remove_notes_summary"
+            android:title="@string/remove_notes_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/pref_title"
+        android:title="@string/input_methods">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="im_popup"
+            android:icon="@drawable/ic_input"
+            android:summary="@string/popup_summary"
+            android:title="@string/popup" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="im_single_number"
+            android:icon="@drawable/ic_input"
+            android:summary="@string/single_number_summary"
+            android:title="@string/single_number" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="im_numpad"
+            android:icon="@drawable/ic_input"
+            android:summary="@string/numpad_summary"
+            android:title="@string/numpad" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="im_numpad_move_right"
+            android:icon="@drawable/ic_move"
+            android:summary="@string/numpad_move_right_summary"
+            android:title="@string/numpad_move_right" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/pref_title"
+        android:title="@string/game">
+        <ListPreference
+            android:defaultValue="sudoku"
+            android:icon="@drawable/ic_theme"
+            android:dialogTitle="@string/select_theme"
+            android:entries="@array/theme_names"
+            android:entryValues="@array/theme_codes"
+            android:key="theme"
+            android:summary="@string/theme_summary"
+            android:title="@string/theme" />
+        <ListPreference
+            android:defaultValue="portrait"
+            android:icon="@drawable/ic_screen_lock"
+            android:dialogTitle="@string/select_orientation"
+            android:entries="@array/orientation_names"
+            android:entryValues="@array/orientation_codes"
+            android:key="orientation"
+            android:summary="@string/orientation_summary"
+            android:title="@string/game_orientation"/>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="show_time"
+            android:icon="@drawable/ic_time"
+            android:summary="@string/show_time_summary"
+            android:title="@string/show_time" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="show_hints"
+            android:icon="@drawable/ic_hint"
+            android:summary="@string/show_hints_summary"
+            android:title="@string/show_hints" />
+        <SeekBarPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/screen_border_size"
+            android:key="screen_border_size"
+            android:icon="@drawable/ic_border"
+            android:summary="@string/screen_border_size_summary"
+            android:title="@string/screen_border_size"
+            os:max="30"
+            os:min="0"
+            os:valueFormat="%s pixels" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="highlight_touched_cell"
+            android:icon="@drawable/ic_highlight"
+            android:summary="@string/highlight_touched_cell_summary"
+            android:title="@string/highlight_touched_cell" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="game_sound"
+            android:icon="@drawable/ic_sound"
+            android:summary="@string/enable_disable_sound"
+            android:title="@string/sound_on_of" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/pref_title"
+        android:title="@string/information">
+        <Preference
+            android:title="@string/app_info"
+            android:key="appInfo"
+            android:icon="@drawable/ic_info"
+            android:summary="@string/app_info_details"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/topPlayLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginEnd="20dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/time_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="00:00"
+                android:textColor="?attr/textColor"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginEnd="20dp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textPuzzleName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="?attr/textColor"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutPoints"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:id="@+id/imagePoint"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginEnd="5dp"
+                android:contentDescription="@null"
+                app:srcCompat="@drawable/ic_poin"
+                android:background="?selectableItemBackgroundBorderless"
+                app:tint="?attr/backgroundColorSelected" />
+
+            <TextView
+                android:id="@+id/textPoint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:background="?selectableItemBackground"
+                android:textColor="?attr/textColor"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textLevelIcon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="20dp"
+                android:gravity="center"
+                android:text="Z"
+                android:textStyle="bold"
+                android:background="@drawable/bg_level"
+                android:textColor="?attr/textColor"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:background="?selectableItemBackground"
+                android:text="Lv. 2"
+                android:textColor="?attr/textColor"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageUndo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:contentDescription="@null"
+            app:srcCompat="@drawable/ic_undo"
+            app:tint="?attr/backgroundColorSelected" />
+
+        <TextView
+            android:id="@+id/imageHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:contentDescription="@null"
+            android:drawablePadding="3dp"
+            android:gravity="center"
+            android:textColor="?attr/textColor"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            app:drawableStartCompat="@drawable/ic_hint"
+            app:drawableTint="?attr/backgroundColorSelected"
+            app:srcCompat="@drawable/ic_hint" />
+
+        <ImageView
+            android:id="@+id/imageMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackgroundBorderless"
+            android:contentDescription="@null"
+            app:srcCompat="@drawable/ic_more_ver"
+            app:tint="?attr/backgroundColorSelected" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <com.gwnbs.sudoku.gui.SudokuBoardView
+            android:id="@+id/sudoku_board"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:keepScreenOn="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.gwnbs.sudoku.gui.inputmethod.IMControlPanel
+                android:id="@+id/input_methods"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
+                ads:layout_constraintBottom_toBottomOf="parent" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

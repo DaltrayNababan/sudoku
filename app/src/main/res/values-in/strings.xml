@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sudoku</string>
+    <string name="edit_sudoku">Edit sudoku</string>
+    <string name="puzzle_folders">Sudoku puzzle folders</string>
+    <string name="version">Version %s</string>
+    <string name="send_me_bugs"><![CDATA[
+    <b><u>Mod Developer</u></b> : Daltray Nababan<br/>Website https://gwnbs.com<br/>Kontak support@gwnbs.com<br/>
+    Privacy Policy https://gwnbs.com/p/sudoku-privacy-policy.html<br/><br/>
+    Permainan ini adalah modifikasi dari aslinya yaitu <b>OpenSudoku</b>.
+    Untuk proyek asli dari permainan ini, dapat dilihat melalui tautan berikut, beserta kontak email.
+    ]]>
+	</string>
+    <string name="current_developers_label">Developer OpenSudoku</string>
+    <string name="old_developers_label">Developers Sebelumnya</string>
+    <string name="localization_contributors_label">Kontributor Bahasa</string>
+
+    <string name="close">Tutup</string>
+    <string name="clear">Hapus</string>
+    <string name="save">Simpan</string>
+
+    <string name="get_more_puzzles_online">Dapatkan puzzle lainnya online</string>
+
+    <string name="name">Nama:</string>
+    <string name="note">Catatan:</string>
+
+    <string name="select_number">Pilih nomor</string>
+    <string name="edit_note">Sunting catatan</string>
+
+    <string name="add_folder">Tambah folder</string>
+    <string name="import_file">Impor</string>
+    <string name="import_file_title">Impor file %s</string>
+    <string name="about">Tentang</string>
+    <string name="rename_folder">Ganti nama folder</string>
+    <string name="delete_folder">Hapus folder</string>
+    <string name="rename_folder_title">Ganti nama </string>
+    <string name="delete_folder_title">Hapus </string>
+    <string name="delete_folder_confirm">Apakah kamu ingin menghapus folder ini?</string>
+
+    <string name="no_puzzles">Tidak ada puzzle</string>
+    <string name="one_puzzle">1 puzzle</string>
+    <string name="n_puzzles">%d puzzle</string>
+    <string name="all_solved">Semua diselesaikan</string>
+    <string name="n_solved">%s selesai</string>
+    <string name="n_unsolved">%d belum selesai</string>
+    <string name="n_playing">%d dimainkan</string>
+
+    <string name="solved">Selesai</string>
+    <string name="playing">Dimainkan</string>
+    <string name="not_started">Belum dimulai</string>
+    <string name="last_played_at">Terakhir dimainkan %s</string>
+    <string name="created_at">Dibuat %s</string>
+    <string name="at_time">pada %s</string>
+    <string name="yesterday_at_time">kemarin pada %s</string>
+    <string name="on_date">pada %s</string>
+    <string name="add_sudoku">Tambah sudoku</string>
+    <string name="filter">Filter</string>
+    <string name="filter_by_gamestate">Filter menurut status game</string>
+    <string name="folders">Folder</string>
+    <string name="delete_puzzle_confirm">Apakah kamu yakin ingin menghapus puzzle yang dipilih?</string>
+    <string name="reset_puzzle_confirm">Apakah kamu yakin ingin mereset puzzle yang dipilih?</string>
+    <string name="play_puzzle">Mainkan</string>
+    <string name="reset_puzzle">Reset puzzle</string>
+    <string name="edit_puzzle">Sunting puzzle</string>
+    <string name="delete_puzzle">Hapus puzzle</string>
+    <string name="filter_active">Difilter: %s</string>
+
+    <string name="undo">Batalkan</string>
+    <string name="clear_all_notes">Hapus semua catatan</string>
+    <string name="fill_in_notes">Isi catatan</string>
+    <string name="restart">Mulai ulang</string>
+    <string name="congrats">Selamat! Kamu berhasil menyelesaikan puzzle ini dalam %s!</string>
+    <string name="restart_confirm">Apakah kamu yakin ingin memulai ulang puzzle ini?</string>
+    <string name="well_done">Well done!</string>
+    <string name="clear_all_notes_confirm">Apakah kamu yakin ingin menghapus semua catatan?</string>
+    <string name="settings">Pengaturan</string>
+    <string name="game_settings">Pengaturan Game</string>
+
+    <string name="game_helpers">Bantuan Game</string>
+    <string name="highlight_wrong_values">Sorot nilai yang salah</string>
+    <string name="highlight_wrong_values_summary">Sorot nilai yang melanggar aturan sudoku.</string>
+    <string name="input_methods">Input Mode</string>
+    <string name="popup">Popup (Muncul)</string>
+    <string name="popup_summary">Sunting nilai sel dan catatan di popup.</string>
+    <string name="single_number">Nomor tunggal</string>
+    <string name="single_number_summary">Pilih nomor, lalu ketuk sel untuk mengatur nilai atau catatannya.</string>
+    <string name="numpad">Numpad</string>
+    <string name="numpad_summary">Tampilkan numpad (bertindak sebagai keyboard numerik standar)</string>
+    <string name="numpad_move_right">Pindah ke kanan saat tekan</string>
+    <string name="numpad_move_right_summary">Memindahkan sel pilihan dengan satu sel ke kanan saat tombol angka ditekan.</string>
+    <string name="numpad_abbr">Num\nPad</string>
+    <string name="popup_abbr">Pop</string>
+    <string name="single_number_abbr">SN</string>
+    <string name="welcome">Selamat datang</string>
+    <string name="hint">Petunjuk</string>
+    <string name="help">Bantuan</string>
+    <string name="that_is_all">Itu saja</string>
+
+    <string name="first_run_hint">
+        Ada beberapa mode input yang dapat Anda gunakan untuk mengisi puzzle.
+        Untuk membantu Anda membiasakan diri dengan mode ini, akan ada beberapa petunjuk yang ditampilkan saat Anda melewatinya.
+        \n\nAnda dapat menonaktifkan petunjuk ini di pengaturan game.\n
+	</string>
+
+    <string name="im_popup_hint">
+        Anda saat ini menggunakan mode input <i>Popup</i>.
+        Ketuk sel mana saja dengan jari untuk mengedit angkanya.
+        \n\nPerhatikan tombol di sudut kanan bawah!
+        Anda dapat menggunakan tombol ini untuk beralih ke mode input lain.\n
+	</string>
+
+    <string name="im_single_number_hint">
+        Anda saat ini menggunakan mode input <i>Single number (Nomor tunggal)</i>.
+        Pertama pilih tombol angka apa saja dengan menekannya.
+        Kemudian cukup ketuk sel dimana Anda ingin mengisikan angka.
+        \n\nTekan tombol <i>Pensil</i> untuk mengaktifkan pengeditan catatan sel.\n
+	</string>
+
+    <string name="im_numpad_hint">
+        Anda saat ini menggunakan mode input <i>Numpad</i>.
+        Tombol bertindak sebagai keyboard numerik standar.
+        \n\nTekan tombol <i>Pensil</i> untuk mengaktifkan pengeditan catatan sel.\n
+	</string>
+
+    <string name="im_disable_modes_hint">
+        Harap diingat bahwa Anda tidak harus menggunakan semua mode input.
+        Anda dapat menonaktifkan yang mana saja dari mereka di pengaturan game.
+        \n\nAnda juga dapat menggunakan keyboard dan trackball untuk mengontrol permainan.
+        Jika Anda ingin memasukkan catatan menggunakan keyboard, tekan angka dengan alt atau shift.\n
+	</string>
+
+    <string name="help_text">
+        <![CDATA[
+        <big><b>Bagaimana cara bermain Sudoku?</b></big>
+        <br/>Sudoku adalah teka-teki logika. Tujuannya adalah untuk mengisikan angka-angka dari 1 sampai 9 ke dalam
+        jaring-jaring 9×9 yang terdiri dari 9 kotak 3×3 tanpa ada angka yang berulang di satu baris, kolom atau kotak.<br/><br/>
+
+        <big><b>Kontrol keyboard</b></big>
+        <br/>Gunakan trackball untuk menavigasi ke sel yang diinginkan lalu tekan angka pada keyboard untuk mengisi nilainya.
+        Jika Anda ingin mengedit catatan sel, tekan angka dengan shift atau alt.<br/><br/>
+
+        <big><b>Input mode</b></big>
+        <br/>Anda dapat beralih di antara beberapa mode input menggunakan tombol di sudut kanan bawah layar.
+        Anda juga dapat menonaktifkan mode input apa pun di pengaturan game - mode ini akan sepenuhnya tersembunyi.<br/><br/>
+
+        <big><b>Input mode Pop-up</b></big>
+        <br/>Dialog pop-up ditampilkan saat Anda mengetuk sel.
+        Anda dapat mengedit konten sel menggunakan dialog ini.<br/><br/>
+
+        <big><b>Input mode Nomor tunggal</b></big>
+        <br/>Pertama pilih tombol angka apa saja dengan menekannya.
+        Kemudian cukup ketuk sel dimana Anda ingin mengisi angka yang dipilih.
+        <br/>\Gunakan tombol <i>Pensil</i> untuk beralih antara nilai sel dan pengeditan catatan.<br/><br/>
+
+        <big><b>Input mode Numpad</b></big>
+        <br/>Tombol bertindak sebagai keyboard numerik standar.
+        <br/><br/>Gunakan tombol <i>Pencil</i> untuk beralih antara nilai sel dan pengeditan catatan.<br/>
+        ]]>
+	</string>
+
+
+    <string name="game">Game</string>
+    <string name="show_hints">Petunjuk peluncuran pertama</string>
+    <string name="show_hints_summary">Tampilkan petunjuk yang memandu Anda melalui kontrol aplikasi</string>
+    <string name="show_time">Tampilkan waktu</string>
+    <string name="show_time_summary">Tampilkan waktu saat bermain game</string>
+
+    <string name="puzzle_inserted">Puzzle baru disimpan</string>
+    <string name="puzzle_updated">Puzzle diperbaharui</string>
+
+    <string name="puzzles_saved">Puzzles disimpan ke \'%s\' folder</string>
+    <string name="no_puzzles_found">Tidak ada puzzle ditemukan</string>
+    <string name="unknown_import_error">Terjadi kesalahan yang tidak diketahui saat mengimpor puzzle; impor dibatalkan</string>
+    <string name="invalid_format">Format tidak valid; impor dibatalkan</string>
+
+    <!-- Strings added in 0.7.0 -->
+    <string name="loading">Loading…</string>
+
+    <!-- Strings added/changed in 0.7.1 -->
+    <string name="more_settings">Pengaturan lainnya</string>
+    <string name="screen_border_size">Ukuran batas layar</string>
+    <string name="screen_border_size_summary">
+        Beberapa tampilan tidak bereaksi terhadap sentuhan di tepi layar. Ini bisa membantu dalam kasus seperti itu.
+	</string>
+    <string name="highlight_touched_cell">Sorot sel saat disentuh</string>
+    <string name="highlight_touched_cell_summary">Sorot baris dan kolom sel yang disentuh</string>
+    <string name="export">Ekspor</string>
+    <string name="export_folder">Ekspor folder</string>
+    <string name="export_all_folders">Ekspor semua folder</string>
+    <string name="folders_created">%d folder berhasil diimpor</string>
+    <string name="importing">Mengimpor puzzle…</string>
+    <string name="exporting">Mengekspor puzzle…</string>
+    <string name="unknown_export_error">Terjadi kesalahan yang tidak diketahui saat mengekspor puzzle</string>
+    <string name="highlight_completed_values">Sorot angka yang sudah selesai</string>
+    <string name="highlight_completed_values_summary">Sorot tombol untuk angka yang telah dimasukkan 9 kali</string>
+    <string name="theme">Tema</string>
+    <string name="theme_summary">Pilih tema warna untuk papan puzzle</string>
+    <string name="select_theme">Pilih tema</string>
+    <string name="filename">Nama file</string>
+    <string name="directory">Direktori</string>
+    <string name="sdcard_not_found">Kartu memori tidak ditemukan</string>
+    <string name="puzzles_have_been_exported">Puzzle telah diekspor ke \'%s\'</string>
+    <string name="file_exists">Berkas sudah ada. Timpa?</string>
+    <!-- localization of default folder names -->
+    <string name="difficulty_hard">Sulit</string>
+    <string name="difficulty_medium">Medium</string>
+    <string name="difficulty_easy">Mudah</string>
+
+    <!-- Strings added/changed in 1.1.0 -->
+    <string name="generate_sudoku">Buat permainan baru</string>
+    <string name="select_difficulty">Pilih tingkat kesulitan</string>
+    <string name="generating">Membuat puzzle…</string>
+    <string name="show_number_totals">Tampilkan Jumlah Total</string>
+    <string name="show_number_totals_summary">Tampilkan jumlah setiap angka yang ditempatkan</string>
+    <string name="what_is_new">Apa yang baru?</string>
+
+    <!-- Strings added/changed in 1.1.1 -->
+    <string name="fill_in_notes_summary">Aktifkan item menu "Isi catatan"</string>
+
+    <!-- Strings added/changed in 1.1.2 -->
+    <string name="set_checkpoint">Setel pos pemeriksaan</string>
+    <string name="undo_to_checkpoint">Batalkan ke pos pemeriksaan</string>
+    <string name="undo_to_checkpoint_confirm">Apakah Anda yakin ingin membatalkan semua tindakan sejak pos pemeriksaan terakhir?</string>
+
+    <!-- Strings added/changed in 2.3.0 -->
+    <string name="highlight_similar_cells">Sorot sel yang sama</string>
+    <string name="highlight_similar_cells_summary">Sorot sel dengan nilai yang sama</string>
+
+    <!-- Strings added/changed in 2.4.0 -->
+    <string name="bidirectional_selection">Pilihan dua arah</string>
+    <string name="bidirectional_selection_summary">
+        Pada panel input nomor tunggal, pemilihan sel yang tidak dapat diedit secara otomatis memilih tombol yang sesuai (dan sebaliknya).
+    </string>
+    <string name="contributors_label">Kontributor</string>
+    <string name="contributors" translatable="false">
+        Sergey Pimanov\n
+        @TacoTheDank\n
+        @steve3424\n
+        Chris Lane\n
+        Justin Nordin
+    </string>
+
+    <!-- Strings added/changed in 2.5.0 -->
+    <string name="game_state_not_started">Belum dimulai</string>
+    <string name="game_state_playing">Dimainkan</string>
+    <string name="game_state_solved">Selesai</string>
+
+    <string name="game_level_easy">Mudah</string>
+    <string name="game_level_medium">Medium</string>
+    <string name="game_level_hard">Sulit</string>
+
+    <string name="theme_paper">Kertas</string>
+    <string name="theme_graph_paper">Kertas grafik</string>
+    <string name="theme_light">Light Salmon</string>
+    <string name="theme_paper_light">Cahaya Kertas</string>
+    <string name="theme_graph_paper_light">Graph Paper Light</string>
+    <string name="theme_high_contrast">Kontras tinggi</string>
+    <string name="theme_inverted_high_contrast">Kontras Tinggi Terbalik</string>
+    <string name="theme_custom">Tema Kustom</string>
+
+    <string name="screen_custom_theme">Warna tema kustom</string>
+    <string name="screen_custom_theme_summary">Sesuaikan warna tema khusus</string>
+    <string name="screen_custom_theme_summary_disabled">
+        Pilih \"Tema Kustom\" di setelan \"Tema\" di atas untuk mengaktifkan bagian ini
+    </string>
+
+    <string name="default_lineColor">Garis</string>
+    <string name="default_lineColor_summary">Warna batas di sekitar sel</string>
+
+    <string name="default_sectorLineColor">Garis sektor</string>
+    <string name="default_sectorLineColor_summary">Warna batas di sekitar blok sel 3x3</string>
+
+    <string name="default_textColor">Teks</string>
+    <string name="default_textColor_summary">Warna teks dari sel yang dapat diedit</string>
+
+    <string name="default_textColorReadOnly">Teks Read-only</string>
+    <string name="default_textColorReadOnly_summary">Warna teks dari sel yang tidak dapat diedit</string>
+
+    <string name="default_textColorNote">Teks catatan</string>
+    <string name="default_textColorNote_summary">Warna teks catatan dari sel yang dapat diedit</string>
+
+    <string name="default_backgroundColor">Latar belakang utama</string>
+    <string name="default_backgroundColor_summary">Warna latar belakang kelompok ganjil sel 3x3</string>
+
+    <string name="default_backgroundColorSecondary">Secondary background</string>
+    <string name="default_backgroundColorSecondary_summary">Background color of even groups of 3x3 cells</string>
+
+    <string name="default_backgroundColorReadOnly">Background of read-only cells</string>
+    <string name="default_backgroundColorReadOnly_summary">Background color of a non editable cells</string>
+
+    <string name="default_backgroundColorTouched">Selector</string>
+    <string name="default_backgroundColorTouched_summary">
+        Color of the selection cross that appears when you press on any cell
+    </string>
+
+    <string name="default_backgroundColorSelected">Selected cell background</string>
+    <string name="default_backgroundColorSelected_summary">Background color of the selected cell</string>
+
+    <string name="default_backgroundColorHighlighted">Highlighted cell background</string>
+    <string name="default_backgroundColorHighlighted_summary">Background color of the highlighted cells</string>
+
+    <!-- Strings added/changed in 2.6.0 -->
+    <string name="solve_puzzle">Solve Puzzle</string>
+    <string name="solve_puzzle_confirm">Are you sure you want to see the solution?</string>
+    <string name="used_solver">You used the solver to see the solution!</string>
+    <string name="puzzle_not_solved">Puzzle ini tidak memiliki solusi.</string>
+
+    <string name="solver_hint">Petunjuk</string>
+    <string name="hint_confirm">Tindakan ini akan mengisi angka yang benar untuk sel yang dipilih. Apakah Anda ingin melanjutkan?</string>
+    <string name="cannot_give_hint">Anda tidak bisa mendapatkan petunjuk untuk sel itu.</string>
+
+    <string name="check_solvabitily">Periksa Solvabilitas</string>
+    <string name="puzzle_solvable">Puzzle ini memiliki solusi.</string>
+
+    <string name="copy_from_existing_theme">Salin dari tema yang ada…</string>
+
+    <!-- Strings added/changed in 3.0.0 -->
+    <string name="theme_default">Gelap</string>
+    <string name="theme_amoled">AMOLED</string>
+    <string name="theme_latte">Caramel Latte</string>
+    <string name="theme_espresso">Espresso</string>
+    <string name="theme_sunrise">Sunrise</string>
+    <string name="theme_honeybee">Honey Bee</string>
+    <string name="theme_crystal">Kristal</string>
+    <string name="theme_midnight_blue">Midnight Blue</string>
+    <string name="theme_emerald">Emerald</string>
+    <string name="theme_forest">Forest</string>
+    <string name="theme_amethyst">Amethyst</string>
+    <string name="theme_ruby">Ruby</string>
+
+    <string name="is_light_theme_title">Tema terang</string>
+    <string name="is_light_theme_summary">Ubah apakah warna aplikasi didasarkan pada tema terang atau gelap.</string>
+    <string name="app_color_primary_title">Primary App Color</string>
+    <string name="app_color_primary_summary">This color is used for the background of the title bar.</string>
+    <string name="app_color_secondary_title">Secondary App Color</string>
+    <string name="app_color_secondary_summary">This color is used for the Android status bar and is usually a darker version of the primary app color.</string>
+    <string name="app_color_accent_title">App Accent Color</string>
+    <string name="app_color_accent_summary">This color is used to accent various UI controls.</string>
+    <string name="app_color_button_title">App Button Color</string>
+    <string name="app_color_button_summary">This color is used for button UI controls.</string>
+
+    <string name="highlight_similar_notes">Sorot catatan yang sama</string>
+    <string name="highlight_similar_notes_summary">Sorot sel dengan catatan yang sama</string>
+
+    <string name="resume">Lanjut</string>
+    <string name="sudoku_lists">Daftar Sudoku</string>
+
+    <!-- Strings added/changed in 3.1.0 -->
+    <string name="undo_to_before_mistake">Urungkan sebelum kesalahan</string>
+    <string name="undo_to_before_mistake_confirm">Apakah Anda yakin ingin mengurungkan semua tindakan sejak status terakhir yang dapat diselesaikan?</string>
+
+    <!-- Strings added/changed in 3.2.0 -->
+    <string name="remove_notes_title">Hapus catatan pada entri nomor</string>
+    <string name="remove_notes_summary">Secara otomatis menghapus catatan dari kolom, baris, dan kotak yang sama saat memasukkan angka</string>
+
+    <string name="create_from_single_color">Buat dari satu warna…</string>
+
+    <!-- Strings added/changed in 3.3.0 -->
+    <string name="show_sudoku_lists_on_startup_title">Tampilkan daftar sudoku di depan</string>
+    <string name="show_sudoku_lists_on_startup_summary">Menampilkan daftar sudoku saat startup dan melewati layar judul.</string>
+    <string name="app_startup_category">Startup App</string>
+
+    <!-- Strings added/changed in 3.4.0 -->
+    <string name="sort">Sortir</string>
+    <string name="sort_puzzles_by">Sortir puzzle berdasar</string>
+    <string name="sort_creation_date">Tanggal pembuatan</string>
+    <string name="sort_play_time">Waktu bermain</string>
+    <string name="sort_last_played">Terakhir dimainkan</string>
+
+    <!-- Strings added/changed in 3.7.0 -->
+    <string name="pasted_from_clipboard">Ditempel dari papan klip</string>
+    <string name="copied_to_clipboard">Disalin ke papan klip</string>
+
+    <string name="invalid_puzzle_format">Format puzzle tidak valid</string>
+    <string name="invalid_mime_type">Jenis MIME tidak valid, harap periksa konten papan klip Anda</string>
+
+    <!-- Strings added/changed in 3.x.x -->
+    <string name="reset_all_puzzles">Reset semua</string>
+    <string name="reset_all_puzzles_confirm">Apakah Anda yakin ingin mengatur ulang semua puzzle di folder ini?</string>
+
+    <string name="fill_all_notes">Isi catatan dengan semua nilai</string>
+    <string name="never_ask">JANGAN TANYA LAGI</string>
+    <string name="out_of_hint">Kehabisan petunjuk</string>
+    <string name="watch_video_for">Dapatkan 10 petunjuk dengan menonton iklan video</string>
+    <string name="watch">TONTON</string>
+    <string name="you_get_10">Anda mendapatkan 10 petunjuk</string>
+    <string name="already_filled_correct">Sel sudah terisi dengan angka yang benar.</string>
+    <string name="an_ad_will">\n\nSebuah iklan akan muncul dalam 5 detik!</string>
+    <string name="an_ad_will_appear">\n\nSebuah iklan akan muncul dalam</string>
+    <string name="seconds">detik!</string>
+    <string name="by_score">dengan skor</string>
+    <string name="bad_enough">Cukup buruk!</string>
+    <string name="not_so_bad">Tidak begitu buruk!</string>
+    <string name="good_enough">Cukup baik!</string>
+    <string name="impressive">Keren!</string>
+    <string name="awesome">Luar biasa!</string>
+    <string name="perfect">Sempurna!</string>
+    <string name="unsolved">Belum terpecahkan</string>
+    <string name="nothing_undo">Tidak ada yang bisa dibatalkan</string>
+    <string name="faile_get_hint">Gagal mendapatkan petunjuk! Pastikan untuk menonton video sampai waktunya habis.</string>
+    <string name="difficulty_very_hard">Sangat Sulit</string>
+    <string name="yes">OK</string>
+    <string name="no">Batal</string>
+    <string name="point">Poin</string>
+    <string name="point_info">Ini adalah poin dari permainan ini. Poin maksimum adalah 100 jika permainan diselesaikan dalam waktu kurang dari 6 menit,
+        dan poin terendah adalah 25. Poin akan berkurang 5 setiap menitnya setelah menit ke-6 hingga mencapai poin terendah.</string>
+    <string name="more_to_level">XP lagi untuk ke level</string>
+    <string name="continue_play">LANJUT</string>
+    <string name="sudoku_title">Gelar Sudoku</string>
+    <string name="folder_name">Nama folder</string>
+    <string name="you_are">Kamu adalah</string>
+    <string name="you_have_reached">Kamu sudah mencapai level maksimal.</string>
+    <string name="of_">dari</string>
+    <string name="sound_on_of">Suara</string>
+    <string name="enable_disable_sound">Aktifkan atau nonaktifkan seluruh suara yang ada dalam game.</string>
+    <string name="press_color_to_apply">Klik pada warna untuk menerapkan</string>
+    <string name="choose_theme">Pilih Tema</string>
+    <string name="dark">Dark Salmon</string>
+    <string name="loading_ad_please_wait">Memuat iklan. Mohon tunggu…</string>
+    <string name="ads_network_problem">Ada masalah dengan jaringan iklan.</string>
+    <string name="app_info">App Info</string>
+    <string name="app_info_details">Informasi mengenai game Sudoku</string>
+    <string name="portrait">Potret</string>
+    <string name="landscape">Lanskap</string>
+    <string name="select_orientation">Pilih Orientasi Layar</string>
+    <string name="game_orientation">Orientasi layar permainan</string>
+    <string name="orientation_summary">Tentukan orientasi permainan antara potret atau lanskap.</string>
+    <string name="congratulations">Selamat</string>
+    <string name="you_are_now">Kamu sekarang level</string>
+    <string name="information">Informasi</string>
+    <string name="sound_effect">Efek Suara</string>
+    <string name="welcome_message"><![CDATA[Selamat datang di permainan Sudoku!<br/><br/>Permainan klasik ringan dengan desain yang simpel.
+    Jika Anda membutuhkan bantuan seperti cara-cara bermain dan lain-lain, dapat ditemukan pada bagian menu pilihan pada layar permainan.
+    <br/><br/>Terima kasih, semoga Anda suka.]]>
+    </string>
+</resources>

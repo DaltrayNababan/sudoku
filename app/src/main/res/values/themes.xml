@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <style name="Theme.OpenSudoku" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/opensudoku_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/opensudoku_colorPrimaryDark</item>
+        <item name="colorAccent">#04839C</item>
+        <item name="lineColor">@color/opensudoku_colorPrimaryDark</item>
+        <item name="sectorLineColor">@color/opensudoku_colorPrimaryDark</item>
+        <item name="textColor">#000000</item>
+        <item name="textColorReadOnly">#000000</item>
+        <item name="textColorNote">#000000</item>
+        <item name="backgroundColor">#FFFFFF</item>
+        <item name="backgroundColorSecondary">#FFFFFF</item>
+        <item name="backgroundColorReadOnly">@color/opensudoku_colorPrimaryLight</item>
+        <item name="backgroundColorTouched">@color/opensudoku_colorAccent</item>
+        <item name="backgroundColorSelected">@color/opensudoku_colorPrimaryDark</item>
+        <item name="backgroundColorHighlighted">@color/opensudoku_colorPrimary</item>
+        <item name="logoColor">@color/opensudoku_colorPrimaryDark</item>
+        <item name="logoColorThin">@color/opensudoku_colorPrimaryLight</item>
+        <item name="mainButtonColor">#000000</item>
+        <item name="padColor">#CBE6EC</item>
+        <item name="buttonTextColor">#000000</item>
+        <item name="android:fontFamily">@font/arima</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+    </style>
+
+    <style name="Theme.Orange" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#FFB300</item>
+        <item name="colorPrimaryDark">#E8A507</item>
+        <item name="colorAccent">#DF7E04</item>
+        <item name="lineColor">#E8A507</item>
+        <item name="sectorLineColor">#FFB300</item>
+        <item name="textColor">#000000</item>
+        <item name="textColorReadOnly">#000000</item>
+        <item name="textColorNote">#000000</item>
+        <item name="backgroundColor">#FFFFFF</item>
+        <item name="backgroundColorSecondary">#FFFFFF</item>
+        <item name="backgroundColorReadOnly">#FBC33C</item>
+        <item name="backgroundColorTouched">@color/opensudoku_colorAccent</item>
+        <item name="backgroundColorSelected">#E8A507</item>
+        <item name="backgroundColorHighlighted">#FFB300</item>
+        <item name="logoColor">#E8A507</item>
+        <item name="logoColorThin">#FBC33C</item>
+        <item name="padColor">#FBD884</item>
+        <item name="mainButtonColor">#000000</item>
+        <item name="buttonTextColor">#000000</item>
+        <item name="android:fontFamily">@font/arima</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+    </style>
+
+    <style name="Theme.Hutan" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#46AC4A</item>
+        <item name="colorPrimaryDark">#3D9141</item>
+        <item name="colorAccent">#2D7331</item>
+        <item name="lineColor">#3D9141</item>
+        <item name="sectorLineColor">#46AC4A</item>
+        <item name="textColor">#000000</item>
+        <item name="textColorReadOnly">#000000</item>
+        <item name="textColorNote">#000000</item>
+        <item name="backgroundColor">#FFFFFF</item>
+        <item name="backgroundColorSecondary">#FFFFFF</item>
+        <item name="backgroundColorReadOnly">#68D86D</item>
+        <item name="backgroundColorTouched">#686868</item>
+        <item name="backgroundColorSelected">#3D9141</item>
+        <item name="backgroundColorHighlighted">#3D9141</item>
+        <item name="logoColor">#3D9141</item>
+        <item name="logoColorThin">#68D86D</item>
+        <item name="padColor">#AAF6AD</item>
+        <item name="mainButtonColor">#FFFFFF</item>
+        <item name="buttonTextColor">#000000</item>
+        <item name="android:fontFamily">@font/arima</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+    </style>
+
+    <style name="Theme.Terang" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#F2F2F2</item>
+        <item name="colorPrimaryDark">#F3F3F3</item>
+        <item name="colorAccent">#FD2B14</item>
+        <item name="lineColor">#f96353</item>
+        <item name="sectorLineColor">#f96353</item>
+        <item name="textColor">#000000</item>
+        <item name="textColorReadOnly">#000000</item>
+        <item name="textColorNote">#000000</item>
+        <item name="backgroundColor">#FFFFFF</item>
+        <item name="backgroundColorSecondary">#FFFFFF</item>
+        <item name="backgroundColorReadOnly">#fa8072</item>
+        <item name="backgroundColorTouched">#BDBDBD</item>
+        <item name="backgroundColorSelected">#fcbcb5</item>
+        <item name="backgroundColorHighlighted">#FDDDDA</item>
+        <item name="logoColor">#fa8072</item>
+        <item name="logoColorThin">#fcbcb5</item>
+        <item name="padColor">#FDDDDA</item>
+        <item name="mainButtonColor">#000000</item>
+        <item name="buttonTextColor">#000000</item>
+        <item name="android:fontFamily">@font/arima</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+    </style>
+
+    <style name="Theme.Gelap">
+        <item name="colorPrimary">#4E4E4E</item>
+        <item name="colorPrimaryDark">#3D3D3D</item>
+        <item name="colorAccent">#FD2B14</item>
+        <item name="lineColor">#f96353</item>
+        <item name="sectorLineColor">#f96353</item>
+        <item name="textColor">#FFFFFF</item>
+        <item name="textColorReadOnly">#FFFFFF</item>
+        <item name="textColorNote">#FFFFFF</item>
+        <item name="backgroundColor">#4E4E4E</item>
+        <!---<item name="android:background">#4E4E4E</item>-->
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textColorSecondary">#E3E2E2</item>
+        <item name="textColorAlertDialogListItem">#E3E2E2</item>
+        <item name="backgroundColorSecondary">#4E4E4E</item>
+        <item name="backgroundColorReadOnly">#fa8072</item>
+        <item name="backgroundColorTouched">#D1D1D1</item>
+        <item name="backgroundColorSelected">#fcbcb5</item>
+        <item name="logoColor">#fa8072</item>
+        <item name="logoColorThin">#fcbcb5</item>
+        <item name="padColor">#FDDDDA</item>
+        <item name="mainButtonColor">#000000</item>
+        <item name="buttonTextColor">#000000</item>
+        <item name="backgroundColorHighlighted">#FDDDDA</item>
+        <item name="android:fontFamily">@font/arima</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+    </style>
+
+    <style name="AppBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bg_bs</item>
+    </style>
+
+
+</resources>

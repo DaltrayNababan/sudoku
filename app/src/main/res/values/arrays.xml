@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="game_states">
+        <item>@string/game_state_not_started</item>
+        <item>@string/game_state_playing</item>
+        <item>@string/game_state_solved</item>
+    </string-array>
+    <string-array name="game_sort">
+        <item>@string/sort_creation_date</item>
+        <item>@string/sort_play_time</item>
+        <item>@string/sort_last_played</item>
+    </string-array>
+    <string-array name="game_levels">
+        <item>@string/game_level_easy</item>
+        <item>@string/game_level_medium</item>
+        <item>@string/game_level_hard</item>
+    </string-array>
+    <string-array name="theme_names">
+        <item>@string/app_name</item>
+        <item>Orange</item>
+        <item>@string/theme_forest</item>
+        <item>@string/dark</item>
+        <item>@string/theme_light</item>
+    </string-array>
+    <!-- Theme codes should not change -->
+    <string-array name="theme_codes" translatable="false">
+        <item>sudoku</item>
+        <item>orange</item>
+        <item>forest</item>
+        <item>dark</item>
+        <item>light</item>
+    </string-array>
+    <!-- End of theme codes -->
+    <string-array name="orientation_names">
+        <item>@string/portrait</item>
+        <item>@string/landscape</item>
+    </string-array>
+    <string-array name="orientation_codes" translatable="false">
+        <item>portrait</item>
+        <item>landscape</item>
+    </string-array>
+</resources>

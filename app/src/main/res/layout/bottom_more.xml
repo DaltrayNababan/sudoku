@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/bottomMenuRoot"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackgroundBorderless"
+            android:contentDescription="@null"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_close" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textFillInNotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_border"
+                android:padding="10dp"
+                android:elevation="5dp"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:visibility="gone"
+                android:includeFontPadding="false"
+                android:text="@string/fill_in_notes"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="?attr/textColor"
+                app:drawableStartCompat="@drawable/ic_edit_grey"
+                app:drawableTint="?attr/backgroundColorSelected" />
+
+            <TextView
+                android:id="@+id/textFillAllNotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_border"
+                android:padding="10dp"
+                android:drawablePadding="10dp"
+                android:elevation="5dp"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:text="@string/fill_all_notes"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="?attr/textColor"
+                app:drawableStartCompat="@drawable/ic_edit_grey" />
+
+            <TextView
+                android:id="@+id/textClearAllNotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_border"
+                android:padding="10dp"
+                android:elevation="5dp"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:text="@string/clear_all_notes"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="?attr/textColor"
+                app:drawableStartCompat="@drawable/ic_delete" />
+
+            <TextView
+                android:id="@+id/textSetCheckPoint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_border"
+                android:padding="10dp"
+                android:elevation="5dp"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:text="@string/set_checkpoint"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="?attr/textColor"
+                app:drawableStartCompat="@drawable/ic_check" />
+
+            <TextView
+                android:id="@+id/textUndoCheckPoint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_border"
+                android:padding="10dp"
+                android:elevation="5dp"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:text="@string/undo_to_checkpoint"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="?attr/textColor"
+                app:drawableStartCompat="@drawable/ic_undo" />
+
+            <TextView
+                android:id="@+id/textUndoBeforeMistake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_border"
+                android:padding="10dp"
+                android:elevation="5dp"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:text="@string/undo_to_before_mistake"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="?attr/textColor"
+                app:drawableStartCompat="@drawable/ic_undo" />
+
+            <TextView
+                android:id="@+id/textRestart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_border"
+                android:padding="10dp"
+                android:elevation="5dp"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:text="@string/restart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="?attr/textColor"
+                app:drawableStartCompat="@drawable/ic_restore" />
+
+            <TextView
+                android:id="@+id/textSettings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_border"
+                android:padding="10dp"
+                android:elevation="5dp"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:text="@string/settings"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="?attr/textColor"
+                app:drawableStartCompat="@drawable/ic_settings" />
+
+            <TextView
+                android:id="@+id/textHelp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_border"
+                android:padding="10dp"
+                android:elevation="5dp"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:text="@string/help"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="?attr/textColor"
+                app:drawableStartCompat="@drawable/ic_help" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
