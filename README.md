@@ -1,4 +1,4 @@
-# Open Sudoku
+# Sudoku
 
 [Sudoku](https://play.google.com/store/apps/details?id=com.gwnbs.sudoku) is a simple open-source Sudoku game.
 It's designed to be controlled both by finger and keyboard.
