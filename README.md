@@ -68,4 +68,4 @@ was contributed to by Vit Hnilica, Martin Sobola, Martin Helff, and Diego Pierot
 
 ## Support or Contact
 
-Having trouble with Open Sudoku? Create an issue in https://github.com/ogarcia/opensudoku/issues or contact me via opensudoku@moire.org and I'll help you sort it out.
+support@gwnbs.com
