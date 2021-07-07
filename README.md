@@ -1,19 +1,19 @@
 # Open Sudoku
 
-[Open Sudoku](https://opensudoku.moire.org/) is a simple open-source Sudoku game.
+[Sudoku](https://play.google.com/store/apps/details?id=com.gwnbs.sudoku) is a simple open-source Sudoku game.
 It's designed to be controlled both by finger and keyboard.
-It's preloaded with 90 puzzles in 3 difficulty levels.
+It's preloaded with 1000 puzzles in 4 difficulty levels.
 More puzzles can be downloaded from the web, and it also allows you to enter your own puzzles.
+
+This game is a modification of the original [OpenSudoku](https://opensudoku.moire.org) by [Daltray Nababan](https://gwnbs.com/).
 
 ## Download
 
-[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
-      alt="Get it on F-Droid"
-      height="80">](https://f-droid.org/packages/org.moire.opensudoku/)
 [<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"
       alt="Get it on Google Play"
-      height="80">](https://play.google.com/store/apps/details?id=org.moire.opensudoku)
+      height="80">](https://play.google.com/store/apps/details?id=com.gwnbs.sudoku)
 
+Below is a list of creators of the original version of "OpenSudoku"
 
 ## Authors and Contributors
 
